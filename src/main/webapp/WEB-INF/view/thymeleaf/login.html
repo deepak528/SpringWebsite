@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head th:include="thymeleaf/layout :: headerFragment">
+</head>
+
+<body>
+
+<div th:include="thymeleaf/layout :: menuFragment">
+</div>
+<div>
+  	<form action="users.html" method="get">
+    <table>
+        <tbody>
+        <tr>
+            <td>Username:</td>
+            <td><input type="text" id="username"/></td>
+        </tr>
+        <tr>
+            <td>Password:</td>
+            <td><input type="password" id="password"/></td>
+        </tr>
+        <tr>
+            <td colspan="2"><input type="submit" /></td>
+        </tr>
+
+      </tbody>
+    </table>
+  </form>
+</div>
+</body>
+</html>
