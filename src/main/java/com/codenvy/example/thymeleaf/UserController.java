@@ -27,12 +27,11 @@ public class UserController {
 
     private void buildUserList(Model model) {
         List<User> users = new ArrayList<User>();
-        users.add(new User("Paul2", "Chapman"));
-        users.add(new User("Mike", "Wiesner"));
-        users.add(new User("Mark", "Secrist"));
-        users.add(new User("Ken", "Krueger"));
-        users.add(new User("Wes", "Gruver"));
-        users.add(new User("Kevin", "Crocker"));
+        users.add(new User("Deepak", "Gupta"));
+        users.add(new User("Pulkit", "Singhal"));
+        users.add(new User("John", "Doe"));
+        users.add(new User("Mickey", "Mouse"));
+        users.add(new User("Donald", "Duck"));
         model.addAttribute("users", users);
     }
 
